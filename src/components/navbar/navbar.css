@@ -1,0 +1,40 @@
+.navbar {
+  padding: 2.4rem 0;
+}
+
+.nav-content,
+.nav-link-container,
+.nav-details,
+.nav-btn-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-content > img {
+  max-width: 14rem;
+}
+
+.nav-link-container {
+  gap: 4rem;
+}
+
+.nav-link-container li {
+  font-family: var(--primary-font-family);
+  list-style: none;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.nav-details {
+  gap: 3.2rem;
+}
+
+.nav-btn-group {
+  gap: 1.6rem;
+}
+
+.nav-btn-group svg {
+  font-size: 2rem;
+  cursor: pointer;
+}
