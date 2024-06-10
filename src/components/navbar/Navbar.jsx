@@ -13,7 +13,7 @@ const Navbar = () => {
   let navContainerRef = useRef(null);
 
   let openCloseNavbar = () => {
-    if (!navContainerRef.current.classList.contains("active")) {
+    if (!navContainerState) {
       setNavContainerState(true);
       let navLinkDetailsHeight =
         navContainerRef.current.querySelector(".nav-link-details").offsetHeight;
