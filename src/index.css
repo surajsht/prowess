@@ -33,3 +33,27 @@ h6 {
   width: 1300px;
   margin: 0 auto;
 }
+
+@media (max-width: 1199px) {
+  .wrapper {
+    width: 960px;
+  }
+}
+
+@media (max-width: 991px) {
+  .wrapper {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .wrapper {
+    width: calc(100% - 2.4rem);
+  }
+}
