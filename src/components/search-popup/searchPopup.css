@@ -10,6 +10,7 @@
   opacity: 0;
   visibility: hidden;
   transition: 0.8s;
+  z-index: 100;
 }
 
 .search-popup-container.active {
