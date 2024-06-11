@@ -88,3 +88,7 @@ a {
 .primary-btn:focus {
   background-color: var(--primary-hover-color);
 }
+
+.section-spacing {
+  margin-bottom: 12rem;
+}
