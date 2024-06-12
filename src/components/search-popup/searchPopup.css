@@ -29,6 +29,12 @@
   }
 }
 
+@media (max-width: 575px) {
+  .search-popup-form {
+    top: -4rem;
+  }
+}
+
 .search-popup-close {
   position: absolute;
   top: 8rem;
