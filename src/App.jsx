@@ -9,6 +9,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import TrainningProgram from "./components/trainningProgram/TrainningProgram";
+import WorkoutStep from "./components/workoutStep/WorkoutStep";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <Testimonial />
       <TrainningProgram />
       <Goals />
+      <WorkoutStep />
     </>
   );
 };
