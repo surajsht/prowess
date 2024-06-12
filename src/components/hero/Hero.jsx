@@ -1,7 +1,6 @@
 import { HeroData } from "./HeroData";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
 import "./hero.css";
 
 const Hero = () => {

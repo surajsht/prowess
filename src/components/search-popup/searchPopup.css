@@ -64,8 +64,6 @@
 }
 
 .search-popup-form button {
-  border: 0;
-  outline: none;
   background: transparent;
   position: absolute;
   top: 50%;
