@@ -7,6 +7,7 @@ import Testimonial from "./components/testimonial/Testimonial";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import TrainningProgram from "./components/trainningProgram/TrainningProgram";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Category />
       <RowGrid />
       <Testimonial />
+      <TrainningProgram />
     </>
   );
 };

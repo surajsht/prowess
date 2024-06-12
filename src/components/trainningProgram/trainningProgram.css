@@ -1,0 +1,114 @@
+.trainning-program .section-body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 1024px) {
+  .trainning-program .section-body {
+    grid-template-columns: 1fr;
+  }
+}
+
+.trainning-program-item {
+  display: flex;
+}
+
+@media (max-width: 575px) {
+  .trainning-program-item {
+    flex-direction: column !important;
+  }
+}
+
+.trainning-program
+  .section-body
+  .trainning-program-item:where(:first-child, :nth-child(2)) {
+  flex-direction: row-reverse;
+}
+
+.trainning-program-item {
+  color: #fff;
+  background-color: var(--primary-color);
+}
+
+.trainning-program-item a {
+  color: #fff;
+}
+
+.trainning-program
+  .section-body
+  .trainning-program-item:where(:first-child, :last-child) {
+  background-color: #29282d;
+}
+
+.trainning-program-image {
+  width: 50%;
+  line-height: 0;
+  overflow: hidden;
+}
+
+.trainning-program-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transform: scale(1);
+  transition: 0.45s;
+}
+
+.trainning-program-item:hover img,
+.trainning-program-item:focus img {
+  transform: scale(1.15);
+}
+
+.trainning-program-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 6rem;
+  width: 50%;
+}
+
+@media (max-width: 1199px) {
+  .trainning-program-details {
+    padding: 4rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .trainning-program-image,
+  .trainning-program-details {
+    width: 100%;
+  }
+}
+
+.trainning-program-details span,
+.trainning-program-details a {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 1.2rem;
+}
+
+.trainning-program-title {
+  font-size: 3rem;
+}
+
+.trainning-program-desc {
+  margin: 2.4rem 0;
+}
+
+.trainning-program-details a {
+  margin-bottom: 0;
+}
+
+.trainning-program-details a:hover,
+.trainning-program-details a:focus {
+  color: #d2d2d2;
+}
+
+.trainning-program-details a svg {
+  margin-left: 0.8rem;
+  vertical-align: middle;
+}
