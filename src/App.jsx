@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/Navbar";
 import RowGrid from "./components/rowGrid/RowGrid";
 import SearchPopup from "./components/search-popup/SearchPopup";
 import Testimonial from "./components/testimonial/Testimonial";
+import Goals from "./components/goals/Goals";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -19,6 +20,7 @@ const App = () => {
       <RowGrid />
       <Testimonial />
       <TrainningProgram />
+      <Goals />
     </>
   );
 };

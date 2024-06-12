@@ -1,0 +1,29 @@
+.goals .section-body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.4rem;
+}
+
+@media (max-width: 1199px) {
+  .goals .section-body {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 575px) {
+  .goals .section-body {
+    grid-template-columns: 1fr;
+  }
+}
+
+.goals-item {
+  text-align: center;
+}
+
+.goals-item > *:not(:last-child) {
+  margin-bottom: 1.2rem;
+}
+
+.goal-title {
+  font-size: 2rem;
+}
