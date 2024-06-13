@@ -10,6 +10,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import TrainningProgram from "./components/trainningProgram/TrainningProgram";
 import WorkoutStep from "./components/workoutStep/WorkoutStep";
+import Carousel from "./components/carousel/Carousel";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <TrainningProgram />
       <Goals />
       <WorkoutStep />
+      <Carousel />
     </>
   );
 };
