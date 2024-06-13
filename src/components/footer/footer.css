@@ -1,0 +1,104 @@
+.footer,
+.footer a {
+  color: #b1b2b2;
+}
+
+.footer a:hover,
+.footer a:focus {
+  color: #fff;
+}
+
+.footer-top {
+  background-color: #252525;
+  padding: 8rem 0;
+}
+
+.footer-top-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5.2rem;
+}
+
+@media (max-width: 1199px) {
+  .footer-top-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-top-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+.footer-item-heading,
+.footer-desc {
+  margin-bottom: 3.2rem;
+}
+
+.footer-heading-title {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.prowess-info-item {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.prowess-info .prowess-info-item:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.prowess-info-item svg {
+  font-size: 1.8rem;
+}
+
+.footer-item-body .prowess-article:not(:last-child) {
+  margin-bottom: 2rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px dashed #b1b2b2;
+}
+
+.article-title {
+  font-size: 2rem;
+}
+
+.article-post-date {
+  font-size: 1.2rem;
+}
+
+.projects-list li:not(:last-child) {
+  margin-bottom: 0.8rem;
+}
+
+.projects-list li a {
+  font-family: var(--primary-font-family);
+  font-size: 1.8rem;
+}
+
+.prowess-form > *:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.prowess-form :where(input, textarea) {
+  background-color: #212121;
+  border: 0;
+  outline: none;
+  padding: 1.2rem;
+  color: #fff;
+  font-size: 1.4rem;
+  height: 4.8rem;
+  width: 100%;
+}
+
+.prowess-form textarea {
+  height: 8rem;
+  resize: none;
+}
+
+.prowess-form button {
+  width: 100%;
+}
