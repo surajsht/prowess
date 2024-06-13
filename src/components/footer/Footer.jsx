@@ -1,6 +1,9 @@
 import { VscCallIncoming } from "react-icons/vsc";
 import { CiLocationOn } from "react-icons/ci";
 import { IoMdTime } from "react-icons/io";
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { SlSocialYoutube } from "react-icons/sl";
 
 import "./footer.css";
 
@@ -124,7 +127,45 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="footer-botom"></div>
+      <div className="footer-bottom">
+        <div className="wrapper">
+          <div className="footer-bottom-content">
+            <p className="copywrite">© 2017 Prowess, All Rights Reserved</p>
+
+            <div className="footer-social-links">
+              <span> Follow us </span>
+
+              <ul className="social-icon-container">
+                <li className="social-icon-list">
+                  <a href="">
+                    <FaFacebookF />
+                  </a>
+                </li>
+                <li className="social-icon-list">
+                  <a href="">
+                    <FaInstagram />
+                  </a>
+                </li>
+                <li className="social-icon-list">
+                  <a href="">
+                    <FaXTwitter />
+                  </a>
+                </li>
+                <li className="social-icon-list">
+                  <a href="">
+                    <FaLinkedinIn />
+                  </a>
+                </li>
+                <li className="social-icon-list">
+                  <a href="">
+                    <SlSocialYoutube />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
   );
 };

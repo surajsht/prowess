@@ -102,3 +102,50 @@
 .prowess-form button {
   width: 100%;
 }
+
+.footer-bottom {
+  background-color: #202020;
+  padding: 4rem 0;
+}
+
+.footer-bottom-content,
+.footer-social-links,
+.social-icon-container,
+.social-icon-list a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.2rem;
+}
+
+.footer-bottom-content {
+  gap: 4rem;
+}
+
+@media (max-width: 767px) {
+  .footer-bottom-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.footer-social-links {
+  gap: 2rem;
+}
+
+.social-icon-list a {
+  justify-content: center;
+  gap: 0;
+  height: 2.4rem;
+  width: 2.4rem;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  color: #000;
+  background-color: #fff;
+}
+
+.social-icon-list a:hover,
+.social-icon-list a:focus {
+  color: #fff;
+  background-color: var(--primary-color);
+}
