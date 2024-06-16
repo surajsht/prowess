@@ -1,0 +1,17 @@
+.page.about-us .page-banner::before {
+  background: url(/public/page/about-us-title-img-1.jpg) no-repeat center/cover;
+}
+
+.page .navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+}
+
+@media (min-width: 992px) {
+  .page .nav-link-details > li > a:not(:hover, :focus) {
+    color: #fff;
+  }
+}

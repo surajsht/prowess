@@ -49,31 +49,32 @@ li {
 }
 
 .wrapper {
-  width: 1300px;
+  max-width: 1300px;
+  width: 100%;
   margin: 0 auto;
 }
 
 @media (max-width: 1199px) {
   .wrapper {
-    width: 960px;
+    max-width: 960px;
   }
 }
 
 @media (max-width: 991px) {
   .wrapper {
-    width: 720px;
+    max-width: 720px;
   }
 }
 
 @media (max-width: 767px) {
   .wrapper {
-    width: 540px;
+    max-width: 540px;
   }
 }
 
 @media (max-width: 575px) {
   .wrapper {
-    width: calc(100% - 2.4rem);
+    max-width: calc(100% - 2.4rem);
   }
 }
 

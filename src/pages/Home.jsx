@@ -14,7 +14,7 @@ import OurTeam from "../components/ourTeam/OurTeam";
 const Home = () => {
   return (
     <>
-      <Navbar />
+      <Navbar logoLink="/logo.png" />
       <SearchPopup />
       <Hero />
       <Category />

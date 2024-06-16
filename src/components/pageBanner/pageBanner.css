@@ -1,0 +1,47 @@
+.page-banner {
+  position: relative;
+  height: 52.8rem;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .page-banner {
+    height: 36rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .page-banner {
+    height: 28rem;
+  }
+}
+
+.page-banner::before {
+  position: absolute;
+  content: "";
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed !important;
+  z-index: -1;
+}
+
+.page-banner-title {
+  font-size: 9rem;
+}
+
+@media (max-width: 991px) {
+  .page-banner-title {
+    font-size: 7.5rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .page-banner-title {
+    position: relative;
+    top: 2.4rem;
+    font-size: 6.5rem;
+  }
+}

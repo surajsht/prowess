@@ -6,7 +6,7 @@ import { UseCustomContext } from "../../context/Context";
 import "./navbar.css";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({ logoLink }) => {
   let [navContainerState, setNavContainerState] = useState(false);
 
   let { setSearchPopupState } = UseCustomContext();
@@ -32,7 +32,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="wrapper">
         <div className="nav-content">
-          <img src="/logo.png" alt="" />
+          <img src={logoLink} alt="logo" />
 
           <div className="nav-details">
             <div
