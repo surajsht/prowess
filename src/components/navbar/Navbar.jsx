@@ -4,6 +4,7 @@ import { FaSearch } from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
 import { UseCustomContext } from "../../context/Context";
 import "./navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   let [navContainerState, setNavContainerState] = useState(false);
@@ -42,9 +43,13 @@ const Navbar = () => {
             >
               <ul className="nav-link-details">
                 {NavData.map((item) => {
-                  let { id, link } = item;
+                  let { id, linkTitle, link } = item;
 
-                  return <li key={id}> {link} </li>;
+                  return (
+                    <li key={id}>
+                      <Link to={`/${link}`}>{linkTitle}</Link>
+                    </li>
+                  );
                 })}
               </ul>
             </div>

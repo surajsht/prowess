@@ -64,6 +64,14 @@
   gap: 3.2rem;
 }
 
+.nav-link-details a {
+  color: #000;
+}
+
+.nav-link-details a:where(:hover, :focus) {
+  color: var(--primary-color);
+}
+
 .nav-btn-group {
   gap: 1.6rem;
 }
