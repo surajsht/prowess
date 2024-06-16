@@ -12,6 +12,7 @@ import TrainningProgram from "./components/trainningProgram/TrainningProgram";
 import WorkoutStep from "./components/workoutStep/WorkoutStep";
 import Carousel from "./components/carousel/Carousel";
 import Footer from "./components/footer/Footer";
+import OurTeam from "./components/ourTeam/OurTeam";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
       <Testimonial />
       <TrainningProgram />
       <Goals />
+      <OurTeam />
       <WorkoutStep />
       <Carousel />
       <Footer />

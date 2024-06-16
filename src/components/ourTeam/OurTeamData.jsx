@@ -9,24 +9,21 @@ export const OurTeamData = [
     social: [
       {
         id: 0,
-        title: "facebook",
         icon: <FaFacebookF />,
         link: "https://www.facebook.com",
       },
       {
         id: 1,
-        title: "instagram",
         icon: <FaInstagram />,
         link: "https://www.instagram.com",
       },
       {
         id: 2,
-        title: "twitter",
         icon: <FaXTwitter />,
         link: "https://www.twitter.com",
       },
     ],
-    img: "/ourTeam/our-team-1.jg",
+    img: "/ourTeam/team-img-1.jpg",
   },
   {
     id: 1,
@@ -35,24 +32,21 @@ export const OurTeamData = [
     social: [
       {
         id: 0,
-        title: "facebook",
         icon: <FaFacebookF />,
         link: "https://www.facebook.com",
       },
       {
         id: 1,
-        title: "instagram",
         icon: <FaInstagram />,
         link: "https://www.instagram.com",
       },
       {
         id: 2,
-        title: "twitter",
         icon: <FaXTwitter />,
         link: "https://www.twitter.com",
       },
     ],
-    img: "/ourTeam/our-team-2.jg",
+    img: "/ourTeam/team-img-2.jpg",
   },
   {
     id: 2,
@@ -61,24 +55,21 @@ export const OurTeamData = [
     social: [
       {
         id: 0,
-        title: "facebook",
         icon: <FaFacebookF />,
         link: "https://www.facebook.com",
       },
       {
         id: 1,
-        title: "instagram",
         icon: <FaInstagram />,
         link: "https://www.instagram.com",
       },
       {
         id: 2,
-        title: "twitter",
         icon: <FaXTwitter />,
         link: "https://www.twitter.com",
       },
     ],
-    img: "/ourTeam/our-team-3.jg",
+    img: "/ourTeam/team-img-3.jpg",
   },
   {
     id: 3,
@@ -87,23 +78,20 @@ export const OurTeamData = [
     social: [
       {
         id: 0,
-        title: "facebook",
         icon: <FaFacebookF />,
         link: "https://www.facebook.com",
       },
       {
         id: 1,
-        title: "instagram",
         icon: <FaInstagram />,
         link: "https://www.instagram.com",
       },
       {
         id: 2,
-        title: "twitter",
         icon: <FaXTwitter />,
         link: "https://www.twitter.com",
       },
     ],
-    img: "/ourTeam/our-team-4.jg",
+    img: "/ourTeam/team-img-4.jpg",
   },
 ];
