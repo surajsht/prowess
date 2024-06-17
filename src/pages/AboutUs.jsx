@@ -2,6 +2,9 @@ import { useEffect } from "react";
 import Navbar from "../components/navbar/Navbar";
 import SearchPopup from "../components/search-popup/SearchPopup";
 import PageBanner from "../components/pageBanner/PageBanner";
+import Goals from "../components/goals/Goals";
+import Testimonial from "../components/testimonial/Testimonial";
+import OurTeam from "../components/ourTeam/OurTeam";
 import "./pages.css";
 
 const AboutUs = () => {
@@ -16,6 +19,9 @@ const AboutUs = () => {
       <Navbar logoLink="/logo-light.png" />
       <SearchPopup />
       <PageBanner title="about us" />
+      <Goals />
+      <Testimonial />
+      <OurTeam />
     </>
   );
 };
