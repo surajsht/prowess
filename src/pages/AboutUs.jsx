@@ -6,6 +6,7 @@ import Goals from "../components/goals/Goals";
 import Testimonial from "../components/testimonial/Testimonial";
 import OurTeam from "../components/ourTeam/OurTeam";
 import "./pages.css";
+import FeaturedPost from "../components/featuredPost/FeaturedPost";
 
 const AboutUs = () => {
   useEffect(() => {
@@ -22,6 +23,7 @@ const AboutUs = () => {
       <Goals />
       <Testimonial />
       <OurTeam />
+      <FeaturedPost />
     </>
   );
 };

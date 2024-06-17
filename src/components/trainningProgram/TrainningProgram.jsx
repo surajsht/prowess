@@ -30,7 +30,7 @@ const TrainningProgram = () => {
 
                 <p className="trainning-program-desc">{desc}</p>
 
-                <a href="">
+                <a href="" className="link-with-icon">
                   Read More <FaArrowRightLong />
                 </a>
               </div>

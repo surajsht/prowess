@@ -5,7 +5,7 @@ import "./ourTeam.css";
 
 const OurTeam = () => {
   return (
-    <section className="our-team">
+    <section className="our-team section-spacing">
       <div className="wrapper">
         <SectionHeader title="MEET OUR STRONGEST TEAM" />
       </div>
